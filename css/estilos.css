@@ -58,7 +58,7 @@
 
 /* PRODUCTOS */
 .titulo-productos {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     margin-top: 20px;
     border-bottom: 3px solid #0077C0;
@@ -118,4 +118,41 @@
 
 .productos span {
     border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+/* DESTACADOS */
+.tituloDestacados {
+    font-size: 24px;
+    border-bottom: 3px solid #0077C0;
+    width: 70px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.btn-dest {
+    background: #0077C0;
+    font-size: 20px;
+    color: white;
+}
+
+.img-dest {
+    width: 95vw;
+    height: 250px;
+}
+
+.card-destacados {
+    margin-top: 20px;
+}
+
+.card-destacados:nth-child(1) {
+    margin-top: 0;
+}
+
+.precio{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn-dest:hover {
+    background: #C7EEFF;
 }
