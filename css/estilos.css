@@ -22,4 +22,88 @@
 /* CAROUSEL */
 .img-carousel{
     height: 100vh;
+    object-fit: cover;
+}
+
+.titulo-video{
+    position: absolute;
+    top: 45%;
+    color: white;
+}
+
+.titulo-bold{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.titulo-light{
+    font-size: 26px;
+    animation: flash 5s;
+}
+/* ANIMACION BREATH */
+@keyframes flash {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+/* PRODUCTOS */
+.tituloProductos {
+    font-size: 20px;
+    margin-top: -50px;
+    border-bottom: 3px solid rgb(255 142 0);
+    width: 70px;
+    position: absolute;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "categoria-principal"
+        "categoria-secundaria"
+        "categoria-terciaria";
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.categoria-principal {
+    grid-area: categoria-principal;
+    background-image: url(../img/prod-1.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #3f3f3e3d;
+    height: 200px;
+    transition: .3s;
+}
+
+.categoria-secundaria {
+    grid-area: categoria-secundaria;
+    background-image: url(../img/prod-2.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #3f3f3e3d;
+    height: 200px;
+    transition: .3s;
+}
+
+.categoria-terciaria {
+    grid-area: categoria-terciaria;
+    background-image: url(../img/prod-3.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #3f3f3e3d;
+    height: 200px;
+    transition: .3s;
 }
