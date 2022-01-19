@@ -43,6 +43,19 @@
     animation: flash 5s;
 }
 
+.title-offcanvas {
+    text-transform: uppercase;
+}
+
+.title-offcanvas h5 {
+    margin-bottom: 0;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+
 /* ANIMACION BREATH */
 @keyframes flash {
 
@@ -240,27 +253,29 @@
 .btn-contacto:hover {
     background: #C7EEFF;
 }
-.contenedor-redes{
+
+.contenedor-redes {
     margin-top: 10px;
 }
 
-.text-siguenos{
+.text-siguenos {
     font-weight: 700;
     margin-bottom: 20px;
 }
-.btn-redes{
+
+.btn-redes {
     background: #0077C0;
     padding: .7rem .5rem;
     border-radius: 0.25rem;
     margin: 10px;
 }
 
-.imagen-nosotros{
+.imagen-nosotros {
     width: 100%;
     margin-top: 20px;
 }
 
-.img-redes{
+.img-redes {
     padding-bottom: 4px;
 }
 
@@ -285,15 +300,15 @@
         margin-top: 10px;
     }
 
-    .row-redes{
+    .row-redes {
         align-items: center;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .footer{
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer {
         position: absolute;
-        bottom:0
+        bottom: 0
     }
 }
 
