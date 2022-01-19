@@ -137,6 +137,10 @@
     color: white;
 }
 
+.btn-dest:hover {
+    background: #C7EEFF;
+}
+
 .img-dest {
     height: 250px;
 }
@@ -152,10 +156,6 @@
 .precio {
     font-weight: 700;
     font-size: 24px;
-}
-
-.btn-dest:hover {
-    background: #C7EEFF;
 }
 
 .card-destacados {
@@ -195,6 +195,53 @@
     color: white;
 }
 
+/* PAGINA NOSOTROS */
+.nosotros-principal {
+    width: 100%;
+    background-image: url(../img/nosotros.jpg);
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+    background-position: center;
+}
+
+.titulo-nosotros-bold {
+    color: white;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.titulo-nosotros-light {
+    text-decoration: underline;
+    color: white;
+    font-weight: 200;
+}
+
+.descripcion-bold {
+    color: white;
+    text-align: justify;
+}
+
+.descripcion-light {
+    color: white;
+    font-weight: 200;
+    margin-top: -10px;
+    text-align: justify;
+}
+
+.btn-contacto {
+    background: #0077C0;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn-contacto:hover {
+    background: #C7EEFF;
+}
+
+
 /* MEDIASQUERYS */
 @media (max-width: 479px) {
     .titulo-bold {
@@ -217,7 +264,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .productos {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
