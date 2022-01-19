@@ -173,8 +173,8 @@
     width: 100%;
     height: auto;
     margin-top: 50px;
-    padding-top: var(--bs-gutter-x,.75rem);
-    padding-bottom: var(--bs-gutter-x,.75rem);
+    padding-top: var(--bs-gutter-x, .75rem);
+    padding-bottom: var(--bs-gutter-x, .75rem);
 }
 
 .img-instagram {
@@ -182,16 +182,16 @@
     margin-right: 5px;
 }
 
-.text-insta{
+.text-insta {
     color: white;
     text-decoration: none;
 }
 
-.text-insta:hover{
-    color: rgba(255,255,255,.55);
+.text-insta:hover {
+    color: rgba(255, 255, 255, .55);
 }
 
-.text-copyright{
+.text-copyright {
     color: white;
 }
 
@@ -271,5 +271,27 @@
     .nav-link:hover::after {
         transform: scaleX(1);
         transform-origin: left;
+    }
+
+    /* ANIMACION PRODUCTOS */
+    .categoria-principal,
+    .categoria-secundaria,
+    .categoria-terciaria {
+        transition: .2s;
+    }
+
+    .categoria-principal:hover {
+        transition: .2s;
+        background-image: url(../img/prod-1-transition.jpg);
+    }
+
+    .categoria-secundaria:hover {
+        transition: .2s;
+        background-image: url(../img/prod-2-transition.jpg);
+    }
+
+    .categoria-terciaria:hover {
+        transition: .2s;
+        background-image: url(../img/prod-3-transition.jpg);
     }
 }
