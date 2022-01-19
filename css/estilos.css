@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.img-carro {
+    height: 20px;
+    vertical-align: sub;
+}
+
+/* CAROUSEL */
+.img-carousel{
+    height: 100vh;
+}
