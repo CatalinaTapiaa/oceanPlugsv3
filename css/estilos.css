@@ -136,7 +136,6 @@
 }
 
 .img-dest {
-    width: 450px;
     height: 250px;
 }
 
@@ -155,4 +154,10 @@
 
 .btn-dest:hover {
     background: #C7EEFF;
+}
+
+.card-destacados{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
