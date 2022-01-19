@@ -186,6 +186,10 @@
     text-decoration: none;
 }
 
+.text-insta:hover{
+    color: rgba(255,255,255,.55);
+}
+
 .text-copyright{
     color: white;
 }
