@@ -240,7 +240,29 @@
 .btn-contacto:hover {
     background: #C7EEFF;
 }
+.contenedor-redes{
+    margin-top: 10px;
+}
 
+.text-siguenos{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.btn-redes{
+    background: #0077C0;
+    padding: .7rem .5rem;
+    border-radius: 0.25rem;
+    margin: 10px;
+}
+
+.imagen-nosotros{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.img-redes{
+    padding-bottom: 4px;
+}
 
 /* MEDIASQUERYS */
 @media (max-width: 479px) {
@@ -261,6 +283,17 @@
     .card-destacados,
     .card-destacados:nth-child(1) {
         margin-top: 10px;
+    }
+
+    .row-redes{
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .footer{
+        position: absolute;
+        bottom:0
     }
 }
 
