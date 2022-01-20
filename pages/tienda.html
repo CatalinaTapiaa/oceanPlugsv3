@@ -63,9 +63,9 @@
     <!-- Principal -->
     <main>
         <section class="container-xxl">
-            <h2 class="tituloTienda">RESIN PLUGS</h2>
+            <h2 class="titulo-tienda">RESIN PLUGS</h2>
             <div class="row">
-                <div class="col-sn-12 col-md-4 text-center">
+                <div class="col-sn-12 col-md-4">
                     <!-- Filtro Mobile-->
                     <a href="#" class="btn filtro">Mostrar Filtros</a>
                     <!-- Filtros para Desktop -->
@@ -73,14 +73,18 @@
                         <div class="filtro-por-categoria">
                             <h3 class="titulo-cat-filtro">Categorías</h3>
                             <ul class="lista-categorias">
-                                <li><input type="checkbox" name="Resin Plugs" id="resinPlugs"><label
-                                        for="resinPlugs">Resin
-                                        Plugs</label></li>
-                                <li><input type="checkbox" name="Spiral Plugs" id="spiralPlugs"><label
-                                        for="spiralPlugs">Spiral
-                                        Plugs</label></li>
-                                <li><input type="checkbox" name="Wood Plugs" id="woodPlugs"><label for="woodPlugs">Wood
-                                        Plugs</label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkResin">
+                                    <label class="form-check-label" for="checkResin">
+                                        Resin Plugs
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkResin">
+                                    <label class="form-check-label" for="checkResin">
+                                        Spiral Plugs
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkResin">
+                                    <label class="form-check-label" for="checkResin">
+                                        Wood Plugs
+                                    </label></li>
                             </ul>
                         </div>
                         <div class="filtro-por-medida">
@@ -112,8 +116,28 @@
                     </div>
                 </div>
                 <!-- Productos -->
-                <div class="col-12 col-md-6 justify-content-around">
-                    <div class="card text-center margin">
+                <div class="col-12 col-md-8 d-flex flex-wrap justify-content-around">
+                    <!-- Paginacion -->
+                    <div class="paginacion-tienda col-12">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="card text-center card-tienda">
                         <img src="../img/tienda-1.png" class="card-img-top img-tienda" alt="prod-1">
                         <div class="card-body">
                             <h5 class="card-title">Tapón con Humo Negro - Rojo</h5>
@@ -209,8 +233,27 @@
                             <a href="#" class="btn btn-outline-light btn-dest">Seleccionar Opciones</a>
                         </div>
                     </div>
+                    <!-- Paginacion -->
+                    <div class="paginacion-tienda col-12">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-
             </div>
         </section>
     </main>
