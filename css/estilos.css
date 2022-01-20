@@ -262,6 +262,36 @@
     padding-bottom: 4px;
 }
 
+/* CONTACTANOS */
+.contacto-principal {
+    background-image: url(../img/contacto.png);
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+}
+
+.titulo-contacto {
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+}
+
+.descripcion-contacto{
+    color: white;
+    text-align: justify;
+}
+
+.btn-redes-contacto {
+    background: #0077C0;
+    padding: .6rem .5rem;
+    border-radius: 0.25rem;
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 50px;
+}
+
+
 /* MEDIASQUERYS */
 @media (max-width: 479px) {
     .titulo-bold {
