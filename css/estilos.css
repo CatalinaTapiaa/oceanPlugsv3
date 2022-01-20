@@ -331,11 +331,11 @@
     margin: 20px 0;
 }
 
-.list-group-flush>.list-group-item i{
+.list-group-flush>.list-group-item i {
     font-size: 1.2rem;
 }
 
-.list-group-item:hover{
+.list-group-item:hover {
     font-weight: 700;
     color: #0077C0;
 }
@@ -354,11 +354,11 @@
     color: black;
 }
 
-.descripcion-cuenta{
+.descripcion-cuenta {
     text-align: justify;
 }
 
-.footer-cuenta{
+.footer-cuenta {
     position: absolute;
     bottom: 0;
 }
@@ -420,6 +420,7 @@
         margin-top: 0px;
     }
 }
+
 /* NOSOTROS */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-nosotros {
