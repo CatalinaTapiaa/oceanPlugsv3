@@ -80,23 +80,7 @@
     width: 70px;
 }
 
-.productos {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "categoria-principal"
-        "categoria-secundaria"
-        "categoria-terciaria";
-    grid-column-gap: 30px;
-    grid-row-gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
 .categoria-principal {
-    grid-area: categoria-principal;
     background-image: url(../img/prod-1.png);
     background-size: cover;
     background-blend-mode: soft-light;
@@ -105,16 +89,15 @@
 }
 
 .categoria-secundaria {
-    grid-area: categoria-secundaria;
     background-image: url(../img/prod-2.png);
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: #3f3f3e3d;
     height: 200px;
+    margin: 10px 0;
 }
 
 .categoria-terciaria {
-    grid-area: categoria-terciaria;
     background-image: url(../img/prod-3.png);
     background-size: cover;
     background-blend-mode: soft-light;
@@ -303,6 +286,21 @@
     .row-redes {
         align-items: center;
     }
+
+    .categoria-principal {
+        height: 400px;
+    }
+
+    .categoria-secundaria {
+        margin-top: 0;
+    }
+
+    .categoria-terciaria,
+    .categoria-secundaria {
+        height: 195px;
+        width: 99%;
+        margin-left: 5px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -313,21 +311,6 @@
 }
 
 @media (min-width: 992px) {
-    .productos {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "categoria-principal categoria-secundaria"
-            "categoria-principal categoria-terciaria";
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        justify-content: center;
-    }
-
-    .categoria-principal {
-        height: 410px;
-    }
-
     .navbar-expand-lg .navbar-collapse {
         justify-content: flex-end;
     }
