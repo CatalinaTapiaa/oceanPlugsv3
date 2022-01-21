@@ -358,10 +358,6 @@
     border-top: 1px solid #0076c044;
 }
 
-.campo {
-    margin-top: 10px;
-}
-
 .btn-enviar {
     background: #0077C0;
     font-size: 20px;
@@ -378,6 +374,18 @@
     background-color: #0077C0;
 }
 
+.form-floating>label {
+    padding: 0.5rem 0.75rem;
+}
+
+.form-floating>.form-control, .form-floating>.form-select {
+    height: calc(2.5rem + 2px);
+}
+
+textarea.form-control {
+    min-height: calc(13.5em + 0.75rem + 2px);
+    margin-top: 20px;
+}
 /* CUENTA */
 .img-cuenta {
     height: 20px;
@@ -542,6 +550,10 @@
     .formulario,
     .listas-desplegables {
         margin-top: 20px;
+    }
+
+    textarea.form-control {
+        margin-top: auto
     }
 
     /* CUENTA */
