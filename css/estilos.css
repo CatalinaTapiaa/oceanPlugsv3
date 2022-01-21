@@ -297,18 +297,20 @@
 
 .btn-redes {
     background: #0077C0;
-    padding: .7rem .5rem;
+    padding: 0 0.4rem;
     border-radius: 0.25rem;
     margin: 10px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.btn-redes:hover {
+    color: rgba(241, 241, 241, 0.918);
 }
 
 .imagen-nosotros {
     width: 100%;
     margin-top: 20px;
-}
-
-.img-redes {
-    padding-bottom: 4px;
 }
 
 /* CONTACTANOS */
@@ -334,11 +336,16 @@
 
 .btn-redes-contacto {
     background: #0077C0;
-    padding: .6rem .5rem;
     border-radius: 0.25rem;
     margin: 10px;
+    font-size: 2.5rem;
     margin-bottom: 30px;
-    width: 50px;
+    width: 60px;
+    color: white;
+}
+
+.btn-redes-contacto:hover {
+    color: rgba(241, 241, 241, 0.918);
 }
 
 .listas-desplegables,
