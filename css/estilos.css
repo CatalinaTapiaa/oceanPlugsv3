@@ -20,20 +20,20 @@
     vertical-align: sub;
 }
 
-.nav-icon{
+.nav-icon {
     display: block;
     color: white;
     padding: 0.5rem 1rem;
 }
 
-.nav-icon:hover{
+.nav-icon:hover {
     font-weight: 900;
     color: rgba(241, 241, 241, 0.918);
     cursor: pointer;
 }
 
 /* LOGIN */
-.btn-login{
+.btn-login {
     background: #0077C0;
     color: white;
     margin-top: 20px;
@@ -43,28 +43,22 @@
     background: #C7EEFF;
 }
 
-.sidebar-login{
+.sidebar-login {
     color: #0077C0;
 }
 
-.title-body{
+.title-body {
     font-weight: 700;
 }
 
-.text-restablecer{
+.text-restablecer {
     color: gray;
     font-size: .9rem;
     margin-top: 10px;
     display: block;
 }
 
-
-.badge{
-    margin-left: 5px;
-    padding: 0.3em 0.57em;
-}
-
-.badge-carro{
+.badge-carro {
     font-size: 0.85rem;
     font-weight: 700;
     line-height: 20px;
@@ -78,6 +72,7 @@
     top: -1px;
     background: #000000;
 }
+
 /* CAROUSEL */
 .img-carousel {
     height: 100vh;
@@ -108,6 +103,7 @@
 .title-offcanvas h5 {
     margin-bottom: 0;
 }
+
 /* ANIMACION BREATH */
 @keyframes flash {
 
@@ -183,6 +179,7 @@
     background: #0077C0;
     font-size: 20px;
     color: white;
+    width: 100%;
 }
 
 .btn-dest:hover {
@@ -482,6 +479,10 @@
 .form-check-input:checked {
     background-color: #0077C0;
     border-color: #0077C0;
+}
+
+.title-producto {
+    font-size: 1.1rem;
 }
 
 /* MEDIASQUERYS */
