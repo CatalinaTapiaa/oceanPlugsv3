@@ -387,9 +387,13 @@
     font-size: 1.2rem;
 }
 
+.list-group-item {
+    color: #ffffff;
+}
+
 .list-group-item:hover {
     font-weight: 700;
-    color: #0077C0;
+    color: rgba(241, 241, 241, 0.918);
 }
 
 .bienvenida-menu {
